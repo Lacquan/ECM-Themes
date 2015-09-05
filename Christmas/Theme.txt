@@ -1,0 +1,272 @@
+{
+    "author": "Lacquan Williams",
+    "colors": {
+        "background": "",
+        "chat": {
+            "admin": "",
+            "ambassador": "",
+            "bouncer": "#FF6464",
+            "cohost": "#64FFFF",
+            "residentdj": "#B2FF64",
+            "host": "#64FFFF",
+            "manager": "#B264FF"
+        },
+        "footer": "",
+        "header": ""
+    },
+    "css": {
+        "font": [],
+        "import": [],
+        "rule": {
+            "#app-header": {
+                "background": "linear-gradient(to bottom,rgba(255, 255, 255, 0.25) 0,rgba(0, 0, 0, 0.75) 100%)"
+            },
+            "#store-button": {
+            },
+            "#plug-dj": {
+            },
+            ".header-panel-button.selected": {
+            },
+            "#plug-menu": {
+                "background": "rgba(0, 0, 0, 0.94) !important"
+            },
+            "#plug-menu .legal": {
+                "background": "rgba(68, 74, 89, 0.46) !important"
+            },
+            "#settings": {
+                "background": "rgba(0, 0, 0, 0.89) !important"
+            },
+            "#settings .header": {
+                "background": "rgba(28, 31, 37, 0.78) !important"
+            },
+            "#room .app-right": {
+            },
+	    "#dj-button":{
+	    },
+            "#dj-button .left": {
+            },
+            "#user-lists .list.staff .group": {
+            },
+            "#chat .emote, #chat .mention, #chat .message, #chat .moderation, #chat .skip, #chat .system, #chat .update, #chat .welcome":{
+                "-webkit-animation":"fadein 0.25s",
+                "-moz-animation":"fadein 0.25s",
+                "-ms-animation":"fadein 0.25s",
+                "-o-animation":"fadein 0.25s",
+                "animation":"fadein 0.25s"
+            },
+            "#chat .welcome": {
+                "background-color": "rgba(0, 255, 106, 0) !important",
+		"border-width":"1px 3px",
+		"border-style":"solid",
+		"border-color":"#0000FF",
+                "border-radius":"8px;",
+                "font-weight": "bold",
+                "padding": "5px 2px 5px 5px"
+            },
+	    "#chat .message:hover, #chat .emote:hover, #chat .moderation:hover, #chat .update:hover":{
+		"text-decoration":"none",
+		"-webkit-transition":"60ms linear 35ms",
+		"-moz-transition":"60ms linear 35ms",
+		"-o-transition":"60ms linear 35ms",
+		"transition":"60ms linear 35ms",
+		"font-weight": "bold",
+		"border-radius":"5px;",
+		"border-left":"#0000FF 1px solid",
+		"padding-left":"5px"
+	    },
+            "#chat .mention": {
+                "background-color": "rgba(0, 0, 0, 0.25) !important",
+                "font-weight": "500",
+                "padding-left": "1px",
+                "border-left": "#0000FF 3px solid"
+            },
+	    "#chat .mention .text .name": {
+		"color": "#0000FF"
+	    },
+            "#chat .message:nth-child(2n+1),#chat .mention:nth-child(2n+1),#chat .skip:nth-child(2n+1),#chat .moderation:nth-child(2n+1),#chat .emote:nth-child(2n+1),#chat .update:nth-child(2n+1),#chat .welcome:nth-child(2n+1)": {
+                "background-color": "rgba(17, 19, 23, 0.32)",
+                "-webkit-animation":"fadein 0.25s",
+                "-moz-animation":"fadein 0.25s",
+                "-ms-animation":"fadein 0.25s",
+                "-o-animation":"fadein 0.25s",
+                "animation":"fadein 0.25s"
+            },
+            "#chat .emote": {
+                "border-left": "#0000FF 3px solid !important",
+                "background-color": "rgba(0, 0, 255, 0.17) !important"
+            },
+            "#chat-messages .emote .icon": {
+                "left": "4px"
+            },
+            "#footer": {
+            },
+            "#playlist-button": {
+                "background": "linear-gradient(to bottom,#000000 0,#0000FF 100%)"
+            },
+            ".social-menu .icon-twitter,.social-menu .icon-facebook": {
+                "opacity": "1"
+            },
+            "#playlist-panel": {
+                "background": "rgba(17, 19, 23, 0.9)"
+            },
+            "#user-rollover": {
+                "background": "rgba(0, 0, 0, 0.8)",
+		"border-width":"1px 3px",
+		"border-style":"solid",
+		"border-color":"#0000FF",
+                "border-radius":"8px;"
+            },
+           "#user-rollover .info": {
+                "background": "rgba(0, 0, 255, 0.8)"
+            },
+	   "#user-rollover .info .level .label": {
+		"margin-right": "4px;",
+		"color": "#000000"
+	    },
+           "#user-rollover .arrow-down,#user-rollover.expand .arrow-down": {
+                "border-top": "rgba(0, 0, 255, 0.8)"
+            },
+	   "#user-rollover .actions .action:hover": {
+                "background": "rgba(0, 0, 255, 0.8)",
+		"radius": " 8px"
+            },
+            "#playlist-menu": {
+                "background": "rgba(28, 31, 37, 0.67)"
+            },
+            "#search": {
+                "background": "rgba(50, 55, 66, 0.58)"
+            },
+
+            "#search-bar": {
+                "background": "rgba(17, 19, 23, 0.77)"
+            },
+            "#filter-bar": {
+                "background": "rgba(17, 19, 23, 0.77)"
+            },
+            "#playlist-edit-button": {
+                "background": "rgba(85, 93, 112, 0.75)"
+            },
+            "#playlist-shuffle-button": {
+                "background": "rgba(68, 74, 89, 0.75)"
+            },
+            "#playlist-delete-button": {
+                "background": "rgba(50, 55, 66, 0.75)"
+            },
+            "#user-panel .score": {
+                "background": "rgba(28, 31, 37, 0.59)"
+            },
+            "#dj-button.is-locked .left,#dj-button.is-full .left,#vote .crowd-response.disabled .bottom": {
+                "background": "rgba(68, 74, 89, 0.75)"
+            },
+            "#dj-button.is-quit .left,#dj-button.is-leave .left,#playlist-delete-button:hover": {
+            },
+            "@keyframes fadein, @-moz-keyframes fadein, @-webkit-keyframes fadein, @-ms-keyframes fadein, @-o-keyframes fadein":{
+               "from {opacity":"0;}",
+               "to {opacity":"1;}"
+            },
+            "#user-lists .list, #waitlist .list":{
+               "-webkit-animation":"fadein 0.3s",
+               "-moz-animation":"fadein 0.3s",
+               "-ms-animation":"fadein 0.3s",
+               "-o-animation":"fadein 0.3s",
+               "animation":"fadein 0.3s"
+            },
+            ".welcome .text":{
+                  "color":"#0000FF"
+            },
+           "#footer-user .bar .progress":{
+                  "background":"#00FFEE"
+            },
+	   ".is-dj .name, .is-staff .name": {
+		  "color": "#00FFEE"
+           },
+	   "#vote .crowd-response":{
+	    },
+            ".icon-current-dj":{
+            },
+            ".icon-playlist": {
+            },
+	    "#user-rollover.is-staff .info .role span": {
+		"color": "#64FFFF"
+	    },
+            ".group.host, #chat .from-host .from.staff .un":{
+                 "color":"#64FFFF"
+	    },
+            ".group.manager, #chat .from-manager .from.staff .un":{
+                 "color":"#B264FF"
+	    },
+            ".group.bouncer, #chat .from-bouncer .from.staff .un":{
+                 "color":"#FF6464"
+	    },
+            ".group.dj, #chat .from.dj .un":{
+                 "color":"#1C79D7"
+	    },
+            ".icon-woot":{
+"background":"url(http://i.imgur.com/h0dlX7I.png);",
+                 "background-repeat":"no-repeat",
+		 "background-size":"28px 28px"
+            },
+            ".torch":{
+                 "display":"none",
+                 "background":"none"
+            },
+            "#player":{
+                 "width":"640px",
+                 "height":"480px"
+            },
+            ".icon-grab": {
+                 "background":"url(http://i.imgur.com/XCIpmDu.png);",
+                 "background-repeat":"no-repeat",
+		 "background-size":"28px 28px"
+            },
+".icon-site-logo":{"background":"url(http://i.imgur.com/XRUuLNV.png) no-repeat -5px 0px transparent"
+            },
+            ".icon-meh":{
+                 "background":"url(http://i.imgur.com/avsnPGl.png);",
+                 "background-repeat":"no-repeat",
+		 "background-size":"28px 28px"
+	    },
+            "#woot i":{
+"background":"url(http://i.imgur.com/h0dlX7I.png);",
+                 "background-repeat":"no-repeat",
+                 "border-radius":"5px",
+		 "background-size":"28px 28px"            
+},
+            "#grab i": {
+                 "background":"url(http://i.imgur.com/XCIpmDu.png);",
+                 "background-repeat":"no-repeat",
+		 "background-size":"28px 28px"
+            },
+            "#meh i":{
+                 "background":"url(http://i.imgur.com/avsnPGl.png);",
+                 "background-repeat":"no-repeat",
+                 "border-radius":"5px",
+		 "background-size":"28px 28px"
+	    },
+	    ".icon-room":{
+		 "background":"url(http://i.imgur.com/rpfCOeG.png);",
+                 "background-repeat":"no-repeat",
+		 "background-size":"32px 32px"
+            }
+        }
+    },
+    "images": {
+        "background": "http://i.imgur.com/R57tYaZ.png",
+        "booth": "",
+        "icons": {
+            "admin": "",
+            "ambassador": "",
+            "bouncer": "http://i.imgur.com/xXD515H.png",
+            "cohost": "http://i.imgur.com/Kios26n.png",
+            "residentdj": "http://i.imgur.com/vLUeYwY.png",
+            "host": "http://i.imgur.com/Kios26n.png",
+            "manager": "http://i.imgur.com/dDNKkIl.png"
+        },
+        "playback": "http://i.imgur.com/OFOpMmJ.png"
+    },
+    "rules": {
+        "allowAutojoin": "true",
+        "allowAutorespond": "true",
+        "allowAutowoot": "true"
+    }
+}
