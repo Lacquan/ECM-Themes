@@ -202,7 +202,7 @@
                  "color":"#1C79D7"
 	    },
             ".icon-woot":{
-"background":"url(http://i.imgur.com/h0dlX7I.png);",
+"background":"url(http://i.imgur.com/b1RH6Ud.png);",
                  "background-repeat":"no-repeat",
 		 "background-size":"28px 28px"
             },
@@ -219,15 +219,15 @@
                  "background-repeat":"no-repeat",
 		 "background-size":"28px 28px"
             },
-".icon-site-logo":{"background":"url(http://i.imgur.com/XRUuLNV.png) no-repeat -5px 0px transparent"
+".icon-site-logo":{"background":"url(http://i.imgur.com/op7Tp4U.png) no-repeat -5px 0px transparent"
             },
             ".icon-meh":{
-                 "background":"url(http://i.imgur.com/avsnPGl.png);",
+                 "background":"url(http://i.imgur.com/H68txkX.png);",
                  "background-repeat":"no-repeat",
 		 "background-size":"28px 28px"
 	    },
             "#woot i":{
-"background":"url(http://i.imgur.com/h0dlX7I.png);",
+"background":"url(http://i.imgur.com/b1RH6Ud.png);",
                  "background-repeat":"no-repeat",
                  "border-radius":"5px",
 		 "background-size":"28px 28px"            
@@ -238,7 +238,7 @@
 		 "background-size":"28px 28px"
             },
             "#meh i":{
-                 "background":"url(http://i.imgur.com/avsnPGl.png);",
+                 "background":"url(http://i.imgur.com/H68txkX.png);",
                  "background-repeat":"no-repeat",
                  "border-radius":"5px",
 		 "background-size":"28px 28px"
