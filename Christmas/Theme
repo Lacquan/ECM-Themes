@@ -5,11 +5,11 @@
         "chat": {
             "admin": "",
             "ambassador": "",
-            "bouncer": "#FF6464",
-            "cohost": "#64FFFF",
-            "residentdj": "#B2FF64",
-            "host": "#64FFFF",
-            "manager": "#B264FF"
+            "bouncer": "#74d680",
+            "cohost": "#ff0000",
+            "residentdj": "#378B29",
+            "host": "#ff0000",
+            "manager": "#ff7878"
         },
         "footer": "",
         "header": ""
@@ -55,10 +55,10 @@
                 "animation":"fadein 0.25s"
             },
             "#chat .welcome": {
-                "background-color": "rgba(0, 255, 106, 0) !important",
+                "background-color": "rgba(255, 0, 0, 0.5) !important",
 		"border-width":"1px 3px",
 		"border-style":"solid",
-		"border-color":"#0000FF",
+		"border-color":"#74d680",
                 "border-radius":"8px;",
                 "font-weight": "bold",
                 "padding": "5px 2px 5px 5px"
@@ -71,17 +71,17 @@
 		"transition":"60ms linear 35ms",
 		"font-weight": "bold",
 		"border-radius":"5px;",
-		"border-left":"#0000FF 1px solid",
+		"border-left":"#74d680 1px solid",
 		"padding-left":"5px"
 	    },
             "#chat .mention": {
-                "background-color": "rgba(0, 0, 0, 0.25) !important",
+                "background-color": "rgba(255, 120, 120, 0.25) !important",
                 "font-weight": "500",
                 "padding-left": "1px",
-                "border-left": "#0000FF 3px solid"
+                "border-left": "#74d680 3px solid"
             },
 	    "#chat .mention .text .name": {
-		"color": "#0000FF"
+		"color": "#74d680"
 	    },
             "#chat .message:nth-child(2n+1),#chat .mention:nth-child(2n+1),#chat .skip:nth-child(2n+1),#chat .moderation:nth-child(2n+1),#chat .emote:nth-child(2n+1),#chat .update:nth-child(2n+1),#chat .welcome:nth-child(2n+1)": {
                 "background-color": "rgba(17, 19, 23, 0.32)",
@@ -92,8 +92,8 @@
                 "animation":"fadein 0.25s"
             },
             "#chat .emote": {
-                "border-left": "#0000FF 3px solid !important",
-                "background-color": "rgba(0, 0, 255, 0.17) !important"
+                "border-left": "#74d680 3px solid !important",
+                "background-color": "rgba(255, 120, 120, 0.17) !important"
             },
             "#chat-messages .emote .icon": {
                 "left": "4px"
@@ -101,7 +101,7 @@
             "#footer": {
             },
             "#playlist-button": {
-                "background": "linear-gradient(to bottom,#000000 0,#0000FF 100%)"
+                "background": "linear-gradient(to bottom,#ff0000 ,#378b29 100%)"
             },
             ".social-menu .icon-twitter,.social-menu .icon-facebook": {
                 "opacity": "1"
@@ -110,24 +110,24 @@
                 "background": "rgba(17, 19, 23, 0.9)"
             },
             "#user-rollover": {
-                "background": "rgba(0, 0, 0, 0.8)",
+                "background": "rgba(255, 0, 0, 0.8)",
 		"border-width":"1px 3px",
 		"border-style":"solid",
-		"border-color":"#0000FF",
+		"border-color":"#74d680",
                 "border-radius":"8px;"
             },
            "#user-rollover .info": {
-                "background": "rgba(0, 0, 255, 0.8)"
+                "background": "rgba(116, 214, 128, 0.8)"
             },
 	   "#user-rollover .info .level .label": {
 		"margin-right": "4px;",
-		"color": "#000000"
+		"color": "#378b29"
 	    },
            "#user-rollover .arrow-down,#user-rollover.expand .arrow-down": {
-                "border-top": "rgba(0, 0, 255, 0.8)"
+                "border-top": "rgba(116, 214, 128, 0.8)"
             },
 	   "#user-rollover .actions .action:hover": {
-                "background": "rgba(0, 0, 255, 0.8)",
+                "background": "rgba(116, 214, 128, 0.8)",
 		"radius": " 8px"
             },
             "#playlist-menu": {
@@ -172,7 +172,7 @@
                "animation":"fadein 0.3s"
             },
             ".welcome .text":{
-                  "color":"#0000FF"
+                  "color":"#74d680"
             },
            "#footer-user .bar .progress":{
                   "background":"#00FFEE"
@@ -187,16 +187,16 @@
             ".icon-playlist": {
             },
 	    "#user-rollover.is-staff .info .role span": {
-		"color": "#64FFFF"
+		"color": "#ff0000"
 	    },
             ".group.host, #chat .from-host .from.staff .un":{
-                 "color":"#64FFFF"
+                 "color":"#ff0000"
 	    },
             ".group.manager, #chat .from-manager .from.staff .un":{
-                 "color":"#B264FF"
+                 "color":"#ff7878"
 	    },
             ".group.bouncer, #chat .from-bouncer .from.staff .un":{
-                 "color":"#FF6464"
+                 "color":"#74d680"
 	    },
             ".group.dj, #chat .from.dj .un":{
                  "color":"#1C79D7"
@@ -215,7 +215,7 @@
                  "height":"480px"
             },
             ".icon-grab": {
-                 "background":"url(http://i.imgur.com/XCIpmDu.png);",
+                 "background":"url(http://i.imgur.com/hu9pQYz.png);",
                  "background-repeat":"no-repeat",
 		 "background-size":"28px 28px"
             },
@@ -233,7 +233,7 @@
 		 "background-size":"28px 28px"            
 },
             "#grab i": {
-                 "background":"url(http://i.imgur.com/XCIpmDu.png);",
+                 "background":"url(http://i.imgur.com/hu9pQYz.png);",
                  "background-repeat":"no-repeat",
 		 "background-size":"28px 28px"
             },
@@ -244,14 +244,14 @@
 		 "background-size":"28px 28px"
 	    },
 	    ".icon-room":{
-		 "background":"url(http://i.imgur.com/rpfCOeG.png);",
+		 "background":"url(http://i.imgur.com/tVLb2Sv.png;",
                  "background-repeat":"no-repeat",
 		 "background-size":"32px 32px"
             }
         }
     },
     "images": {
-        "background": "http://i.imgur.com/R57tYaZ.png",
+        "background": "http://i.imgur.com/lFmcPNg.jpg",
         "booth": "",
         "icons": {
             "admin": "",
@@ -262,7 +262,7 @@
             "host": "http://i.imgur.com/Kios26n.png",
             "manager": "http://i.imgur.com/dDNKkIl.png"
         },
-        "playback": "http://i.imgur.com/OFOpMmJ.png"
+        "playback": "http://i.imgur.com/WASa0fy.png"
     },
     "rules": {
         "allowAutojoin": "true",
