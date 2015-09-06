@@ -102,16 +102,16 @@
             "#footer": {
             },
             "#playlist-button": {
-                "background": "linear-gradient(to bottom,#000000 0,#0000FF 100%)"
+                "background": "linear-gradient(to bottom,#6cddf1 0,#6cddf1 100%)"
             },
             ".social-menu .icon-twitter,.social-menu .icon-facebook": {
                 "opacity": "1"
             },
             "#playlist-panel": {
-                "background": "rgba(17, 19, 23, 0.9)"
+                "background": "rgba(108, 221, 241, 0.9)"
             },
             "#user-rollover": {
-                "background": "rgba(108, 221, 241, 0.8)",
+                "background": "rgba(255, 0, 255, 0.8)",
 		"border-width":"1px 3px",
 		"border-style":"solid",
 		"border-color":"#6cddf1",
@@ -132,14 +132,14 @@
 		"radius": " 8px"
             },
             "#playlist-menu": {
-                "background": "rgba(108, 221, 241, 0.67)"
+                "background": "rgba(255, 0, 255, 0.67)"
             },
             "#search": {
                 "background": "rgba(108, 221, 241, 0.58)"
             },
 
             "#search-bar": {
-                "background": "rgba(108, 221, 241, 0.77)"
+                "background": "rgba(255, 0, 255, 0.77)"
             },
             "#filter-bar": {
                 "background": "rgba(108, 221, 241, 0.77)"
@@ -151,7 +151,7 @@
                 "background": "rgba(108, 221, 241, 0.75)"
             },
             "#playlist-delete-button": {
-                "background": "rgba(50, 55, 66, 0.75)"
+                "background": "rgba(255, 0, 255, 0.75)"
             },
             "#user-panel .score": {
                 "background": "rgba(108, 221, 241, 0.59)"
@@ -188,7 +188,7 @@
             ".icon-playlist": {
             },
 	    "#user-rollover.is-staff .info .role span": {
-		"color": "#64FFFF"
+		"color": "#000000"
 	    },
             ".group.host, #chat .from-host .from.staff .un":{
                  "color":"#C02D2D"
