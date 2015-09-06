@@ -244,7 +244,7 @@
 		 "background-size":"28px 28px"
 	    },
 	    ".icon-room":{
-		 "background":"url(http://i.imgur.com/tVLb2Sv.png;",
+		 "background":"url(http://i.imgur.com/tVLb2Sv.png) ;",
                  "background-repeat":"no-repeat",
 		 "background-size":"32px 32px"
             }
