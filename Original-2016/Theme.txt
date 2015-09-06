@@ -59,7 +59,7 @@
                 "background-color": "rgba(0, 255, 106, 0) !important",
 		"border-width":"1px 3px",
 		"border-style":"solid",
-		"border-color":"#0000FF",
+		"border-color":"#6cddf1",
                 "border-radius":"8px;",
                 "font-weight": "bold",
                 "padding": "5px 2px 5px 5px"
@@ -72,17 +72,17 @@
 		"transition":"60ms linear 35ms",
 		"font-weight": "bold",
 		"border-radius":"5px;",
-		"border-left":"#0000FF 1px solid",
+		"border-left":"#6cddf1 1px solid",
 		"padding-left":"5px"
 	    },
             "#chat .mention": {
                 "background-color": "rgba(0, 0, 0, 0.25) !important",
                 "font-weight": "500",
                 "padding-left": "1px",
-                "border-left": "#0000FF 3px solid"
+                "border-left": "#6cddf1 3px solid"
             },
 	    "#chat .mention .text .name": {
-		"color": "#0000FF"
+		"color": "#6cddf1"
 	    },
             "#chat .message:nth-child(2n+1),#chat .mention:nth-child(2n+1),#chat .skip:nth-child(2n+1),#chat .moderation:nth-child(2n+1),#chat .emote:nth-child(2n+1),#chat .update:nth-child(2n+1),#chat .welcome:nth-child(2n+1)": {
                 "background-color": "rgba(17, 19, 23, 0.32)",
@@ -93,7 +93,7 @@
                 "animation":"fadein 0.25s"
             },
             "#chat .emote": {
-                "border-left": "#0000FF 3px solid !important",
+                "border-left": "#6cddf1 3px solid !important",
                 "background-color": "rgba(0, 0, 255, 0.17) !important"
             },
             "#chat-messages .emote .icon": {
@@ -114,7 +114,7 @@
                 "background": "rgba(0, 0, 0, 0.8)",
 		"border-width":"1px 3px",
 		"border-style":"solid",
-		"border-color":"#0000FF",
+		"border-color":"#6cddf1",
                 "border-radius":"8px;"
             },
            "#user-rollover .info": {
@@ -173,7 +173,7 @@
                "animation":"fadein 0.3s"
             },
             ".welcome .text":{
-                  "color":"#0000FF"
+                  "color":"#6cddf1F"
             },
            "#footer-user .bar .progress":{
                   "background":"#00FFEE"
